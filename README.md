@@ -1,18 +1,26 @@
 # CNN-potato-disease-classification
 
+This project focuses on the classification of potato leaf diseases using Convolutional Neural Networks (CNNs). The model classifies potato leaf images into one of three categories: Early Blight, Late Blight, or Healthy. The dataset used for this project is the PlantVillage dataset, which provides a rich collection of labeled images for training and evaluation.  
+
 ## Model Training
 
 The model was built using TensorFlow and trained on the PlantVillage dataset. 
 https://www.kaggle.com/datasets/arjuntejaswi/plant-village
 
-We used a Convolutional Neural Network (CNN) that classifies potato leaf images into one of the three categories: Potato_Early_blight; Potato_Late_blight and Potato_healthy.
-
-
 ### Key Steps:
-1. **Data Loading**: The dataset is loaded from the `PlantVillage` directory.
-2. **Preprocessing**: The images are resized, normalized, and augmented as needed (`notebook` directory).
-3. **Model Building**: A CNN is constructed using TensorFlow's Keras API, in `api` directory. 
-4. **Training**: The model is trained on the dataset, and the trained model is saved to the `models` directory.
+1. **Data Loading:** The dataset is loaded from the `PlantVillage` directory.
+2. **Preprocessing:** The images are resized, normalized, and augmented as needed. This preprocessing is done in the `notebook` directory.
+3. **Model Building:** A Convolutional Neural Network (CNN) is constructed using TensorFlow’s Keras API, within the `api` directory.
+4. **Training:** The model is trained on the dataset, and the trained model is saved to the `models` directory.
+
+The architecture includes sequential layers for resizing, rescaling, and augmenting the input images, followed by several convolutional layers with ReLU activation and max-pooling. The final output layer uses softmax activation to predict the class probabilities.
+
+### Model Evaluation
+
+After training, the model was evaluated on a test set, and the results showed a high accuracy (around 99%) in classifying the potato leaf diseases. Below are some of the predictions made by the model:
+
+![Potato Disease Predictions](path_to_your_image)  
+
 
 ## Model Deployment
 
