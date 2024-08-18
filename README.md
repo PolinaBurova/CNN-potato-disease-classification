@@ -31,3 +31,5 @@ The trained model is deployed using FastAPI. The API can accept an image and ret
 - Provides an endpoint `/predict` to handle image uploads and predictions.
 - Returns the predicted class label (`Early Blight`, `Late Blight`, or `Healthy`).
 
+![API Predict](https://github.com/PolinaBurova/CNN-potato-disease-classification/blob/main/api/FastAPIScreenshot1.png)  
+
