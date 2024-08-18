@@ -19,7 +19,7 @@ The architecture includes sequential layers for resizing, rescaling, and augment
 
 After training, the model was evaluated on a test set, and the results showed a high accuracy (around 99%) in classifying the potato leaf diseases. Below are some of the predictions made by the model:
 
-![Potato Disease Predictions](path_to_your_image)  
+![Potato Disease Predictions](https://github.com/PolinaBurova/CNN-potato-disease-classification/blob/main/notebook/potato-disease-prediction.png)  
 
 
 ## Model Deployment
